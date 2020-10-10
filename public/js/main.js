@@ -40,8 +40,8 @@ var modalString = `<h4>Customer</h4>
 <% _.each(sale.items, function(item){ %>
     <tr>
     <td><%= item.name %></td>
-    <td><%= item.price %></td>
     <td><%= item.quantity %></td>
+    <td><%= item.price %></td>
     </tr>
 <% }); %>
 </tbody>
@@ -94,7 +94,6 @@ $(document).ready(function () {
   });
   $("a#next-pg").on("click", function () {
     page++;
-    console.log(page);
     loadSaleData();
   });
 });
