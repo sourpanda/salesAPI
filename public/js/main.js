@@ -90,7 +90,6 @@ $(document).ready(function () {
   // paginate
   $("a#previous-pg").on("click", function () {
     page > 1 ? page-- : page;
-    console.log(page);
     loadSaleData();
   });
   $("a#next-pg").on("click", function () {
