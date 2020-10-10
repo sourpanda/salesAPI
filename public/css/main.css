@@ -7,3 +7,7 @@
 #sale-table tr:hover {
   cursor: pointer;
 }
+
+thead {
+  font-weight: bold;
+}
